@@ -45,7 +45,8 @@ public:
 };
 
 int main() {
-    ElectricityBill e1;
+    
+    totalbil e1;
     e1.name = "moosa";
     e1.customerID = 123;
     e1.units = 100;
