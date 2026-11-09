@@ -25,6 +25,9 @@ class ElectricityBill : public Customer {
 public:
     int units;
     double pricePerUnit;
+}
+class totalbil : public ElectricityBill {
+public:
     double totalBill;
 
     void calculateBill() {
